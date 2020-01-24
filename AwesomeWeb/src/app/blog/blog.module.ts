@@ -9,6 +9,9 @@ import { BlogListComponent } from './blog-list/blog-list.component';
   declarations: [BlogComponent, BlogListComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    BlogComponent, BlogListComponent
   ]
 })
 export class BlogModule { }
