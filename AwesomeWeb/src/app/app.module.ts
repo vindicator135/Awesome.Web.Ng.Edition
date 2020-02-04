@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BlogModule } from './blog/blog.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { BlogModule } from './blog/blog.module';
   ],
   imports: [
     BrowserModule,
-    BlogModule
+    BlogModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
