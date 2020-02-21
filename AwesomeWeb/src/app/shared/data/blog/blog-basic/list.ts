@@ -2,56 +2,47 @@ export class blogBasicDB {
     static list = [
         {
             Id: 1,
-            img: 'assets/images/agency/blog/6.jpg',
-            date:'June 19, 2018',
-            type:'Phonics ,Newyork',
-            title:'Twice profit than before you',
-            content:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............',
+            img: 'assets/images/blue-sky-behind-basketball-net.jpg',
+            date:'April 2, 2019',
+            type:'Werribee Toastmasters',
+            title:'Game Of Life',
+            content:'An epic Icebreaker speech. This is the first speech I ever gave in Toastmaster as a newbie. Its a story about where I came from, littered with valuable lessons I learned and earned from playing in the hard-court of life...............',
             btn:'read more'
         },
         {
             Id: 2,
-            img: 'assets/images/agency/blog/2.jpg',
-            date:'June 19, 2018',
-            type:'Phonics ,Newyork',
-            title:'Twice profit than before you',
-            content:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............',
+            img: 'assets/images/secret-garden-wooden-door-with-wreath.jpg',
+            date:'April 17, 2019',
+            type:'Werribee Toastmasters',
+            title:'Knocks on the door',
+            content:'Inspired by a love story - me and my wifes, this speech brings the lesson of being open to the unexpected opportunities that comes. If you never try, you will never know - for better or for worse................',
             btn:'read more'
         },
         {
             Id: 3,
-            img: 'assets/images/agency/blog/3.png',
-            date:'June 19, 2018',
-            type:'Phonics ,Newyork',
-            title:'Twice profit than before you',
-            content:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............',
+            img: 'assets/images/grassy-fiels-with-armed-toy-soldiers.jpg',
+            date:'May 1, 2019',
+            type:'Werribee Toastmasters',
+            title:'Legacy',
+            content:'A not so apologetic sharing of how ones accomplishment is only an effect of a deeper more profound victory. It is not about the accolades, medals or trophies. It is all about how the struggle has made you better...............',
             btn:'read more'
         },
         {
             Id: 4,
-            img: 'assets/images/agency/blog/4.jpg',
-            date:'June 19, 2018',
-            type:'Phonics ,Newyork',
-            title:'Twice profit than before you',
-            content:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............',
+            img: 'assets/images/crashed-aircraft-wreckage.jpg',
+            date:'May 15, 2019',
+            type:'Prepared speech',
+            title:'Assurances',
+            content:'Near-death experience, close-calls, divine intervention, holy sh*t moment - what do you do after a surviving a scene from Final Destination in real life?! Of course, go shopping look for life insurance!...............',
             btn:'read more'
         },
         {
             Id: 5,
-            img: 'assets/images/agency/blog/6.jpg',
-            date:'June 19, 2018',
-            type:'Phonics ,Newyork',
-            title:'Twice profit than before you',
-            content:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............',
-            btn:'read more'
-        },
-        {
-            Id: 6,
-            img: 'assets/images/agency/blog/2.jpg',
-            date:'June 19, 2018',
-            type:'Phonics ,Newyork',
-            title:'Twice profit than before you',
-            content:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimenbook...............',
+            img: 'assets/images/catching-time-hourglass.jpg',
+            date:'June 5, 2019',
+            type:'Werribee Toastmasters',
+            title:'Trifecta',
+            content:'Time vs Money - this is one life dilemma that a lot of us struggle to contend... all our lives! Until we wake up to the day that we have neither. Or worse, realised one day that we did not even bother to deliberately pick. So, is it Time or Money?...............',
             btn:'read more'
         }
     ]
