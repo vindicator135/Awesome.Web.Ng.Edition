@@ -22,7 +22,8 @@ import { SharedModule } from './shared/shared.module';
       {
         useHash: false, 
         anchorScrolling: 'enabled', 
-        scrollPositionRestoration: 'enabled'
+        scrollPositionRestoration: 'enabled',
+        enableTracing: true
       })
   ],
   providers: [],
