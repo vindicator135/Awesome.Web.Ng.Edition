@@ -12,11 +12,13 @@
                 <div class="blog-text m-t-20">
                     <h6>{{blogData.date}}</h6><a href="javascript:void()">
                         <h3 class="blog-head">{{blogData.title}}</h3>
+                        <h6 class="blog-head">by Stephen Cate</h6>
                     </a>
                     <div class="blog-divider"></div>
                     <div class="blog-description">
-                        <p>{{blogData.detail1}}</p>
-                        <p>{{blogData.detail2}}</p>
+                        <div *ngFor="let p of blogData.details">
+                            <p>{{p.text}}</p>
+                        </div>
                         <h5>{{blogData.name}}</h5>
                         <h5 class="pull-right">{{blogData.like}} <i class="fa fa-heart-o"></i>{{blogData.comment}} <i
                                 class="fa fa-comments-o"></i>
