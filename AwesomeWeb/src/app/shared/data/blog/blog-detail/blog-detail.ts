@@ -1,4 +1,3 @@
-import { Paragraph } from './paragraph'
 export class blogDetailDB {
     static Details =
         {
@@ -126,6 +125,5 @@ export class blogDetailDB {
                 }
 
             ]
-            
         }
     }
