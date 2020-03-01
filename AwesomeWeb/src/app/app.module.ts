@@ -7,6 +7,7 @@ import { routes } from './app-routing.module'
 import { AppComponent } from './app.component';
 import { BlogModule } from './blogs/blogs.module';
 import { SharedModule } from './shared/shared.module';
+import { HomeModule } from './home/home.module';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     BrowserModule,
     BlogModule,
+    HomeModule,
     SharedModule,
     RouterModule.forRoot(
       routes, 
