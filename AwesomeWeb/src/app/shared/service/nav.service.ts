@@ -28,10 +28,10 @@ export class NavService {
       title: 'Home', 
       type: 'sub', 
       children: [
-        { path: '/blogs', title: 'What\'s new?', type: 'link' },
-        { path: '/blogs', title: 'Need a motivational speaker? I speak for free!', type: 'link' },
-        { path: '/blogs', title: 'Preparing for a speech? Happy to help!', type: 'link' },
-				{ path: '/blogs', title: 'About me', type: 'link' }
+        { path: '/home', title: 'What\'s new?', type: 'link' },
+        { path: '/home/details/1', title: 'Need a motivational speaker? I speak for free!', type: 'link' },
+        { path: '/home/details/2', title: 'Preparing for a speech? Happy to help!', type: 'link' },
+				{ path: '/home/details/3', title: 'About me', type: 'link' }
 			],
     },
     {

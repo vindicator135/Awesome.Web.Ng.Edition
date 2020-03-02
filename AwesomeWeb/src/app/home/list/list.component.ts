@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HomeDetail } from '../../shared/data/blog/blog-detail/home-detail'
 
 @Component({
   selector: 'app-home-list',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list.component.scss']
 })
 export class HomeListComponent implements OnInit {
+  blogData = HomeDetail.Details
 
   constructor() { }
 
