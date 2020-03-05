@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { blogDetailDB } from '../../shared/data/blog/blog-detail/blog-detail'
 import { HomeDetail } from '../../shared/data/blog/blog-detail/home-detail'
 
 @Component({
