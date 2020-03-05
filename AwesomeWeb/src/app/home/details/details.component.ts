@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+
 import { HomeDetail } from '../../shared/data/blog/blog-detail/home-detail'
+import { Blog } from 'src/app/shared/data/blog/blog-detail/blog';
 
 @Component({
   selector: 'app-home-details',
@@ -7,10 +10,13 @@ import { HomeDetail } from '../../shared/data/blog/blog-detail/home-detail'
   styleUrls: ['./details.component.scss']
 })
 export class HomeDetailsComponent implements OnInit {
-  blogData = HomeDetail.getDetail('1');
+  blogData : Blog;
   
-  constructor() { }
+  constructor(private activeRoute: ActivatedRoute) { }
 
   ngOnInit() {
+    this.activeRoute.paramMap.subscribe(params => {
+      this.blogData = HomeDetail.getDetail(params.get('id'));
+    })
   }
 }

@@ -25,7 +25,7 @@
                                         <h5 class="blog-head font-600">{{blog.title}}</h5>
                                         <p class="para2">{{blog.content}}</p>
                                         <div class="btn-bottom m-t-20">
-                                            <a href="{{ 'home/details/' + blog.id }}" class="text-uppercase">{{blog.btn}}</a>
+                                            <a routeLink="['/home/details', blog.id]" class="text-uppercase">{{blog.btn}}</a>
                                         </div>
                                     </div>
                                 </div>
